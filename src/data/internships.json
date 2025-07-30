@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "companyName": "Philips",
+    "coordinates": [52.3676, 4.9041],
+    "address": "Amstelplein 2, 1096 BC Amsterdam",
+    "description": "Philips is a leading health technology company focused on improving people's health and well-being through meaningful innovation.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Philips_logo_new.svg/2560px-Philips_logo_new.svg.png",
+    "city": "Amsterdam",
+    "website": "https://www.philips.com",
+    "email": "careers@philips.com",
+    "phone": "+31 20 597 7777",
+    "tags": ["Software", "Research", "Mobile"],
+    "students": [
+      {
+        "name": "Sarah Johnson",
+        "duration": "6 months",
+        "year": 2023,
+        "role": "Software Development Intern",
+        "description": "Software development internship focusing on IoT healthcare solutions. Worked on developing smart medical devices and data analysis tools."
+      },
+      {
+        "name": "Michael Chen",
+        "duration": "8 months", 
+        "year": 2023,
+        "role": "Data Science Intern",
+        "description": "Developed machine learning models for medical image analysis and patient data processing."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "companyName": "ASML",
+    "coordinates": [51.4416, 5.4697],
+    "address": "De Run 6501, 5504 DR Veldhoven",
+    "description": "ASML is a world leader in the semiconductor industry, providing chipmakers with hardware, software and services to mass produce patterns on silicon.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/ASML_logo.svg/2560px-ASML_logo.svg.png",
+    "city": "Veldhoven",
+    "website": "https://www.asml.com",
+    "email": "careers@asml.com",
+    "phone": "+31 40 268 3000",
+    "tags": ["Software", "Research"],
+    "students": [
+      {
+        "name": "Emma van der Berg",
+        "duration": "8 months",
+        "year": 2023,
+        "role": "Research Intern",
+        "description": "Research internship in semiconductor lithography. Contributed to the development of next-generation EUV lithography systems."
+      },
+      {
+        "name": "Thomas Nielsen",
+        "duration": "7 months",
+        "year": 2023,
+        "role": "Software Engineering Intern",
+        "description": "Software engineering internship in the control systems team. Developed algorithms for precise positioning and control of lithography machines."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "companyName": "ING Bank",
+    "coordinates": [52.3654, 4.8977],
+    "address": "Bijlmerdreef 106, 1102 CT Amsterdam",
+    "description": "ING is a global financial institution with a strong European base, offering banking services for retail and commercial clients.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/ING_Group_logo.svg/2560px-ING_Group_logo.svg.png",
+    "city": "Amsterdam",
+    "website": "https://www.ing.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Software", "Web", "Mobile"],
+    "students": [
+      {
+        "name": "Lucas Rodriguez",
+        "duration": "5 months",
+        "year": 2023,
+        "role": "Data Science Intern",
+        "description": "Data science internship in the digital banking team. Developed machine learning models for fraud detection and customer behavior analysis."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "companyName": "TomTom",
+    "coordinates": [52.3698, 4.9105],
+    "address": "De Ruijterkade 154, 1011 AC Amsterdam",
+    "description": "TomTom is a technology company that provides location technology and services for automotive, enterprise and consumer markets.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/TomTom_logo.svg/2560px-TomTom_logo.svg.png",
+    "city": "Amsterdam",
+    "website": "https://www.tomtom.com",
+    "email": "careers@tomtom.com",
+    "phone": "+31 20 757 5000",
+    "tags": ["Software", "Mobile"],
+    "students": [
+      {
+        "name": "Anna Kowalski",
+        "duration": "6 months",
+        "year": 2023,
+        "role": "Mobile App Development Intern",
+        "description": "Mobile app development internship. Worked on navigation features and real-time traffic data integration for the TomTom Go app."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "companyName": "Unilever",
+    "coordinates": [51.9225, 4.4792],
+    "address": "Weena 455, 3013 AL Rotterdam",
+    "description": "Unilever is a British-Dutch multinational consumer goods company that produces food, beverages, cleaning agents and personal care products.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unilever_logo.svg/2560px-Unilever_logo.svg.png",
+    "city": "Rotterdam",
+    "website": "https://www.unilever.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Software", "Research"],
+    "students": [
+      {
+        "name": "David Thompson",
+        "duration": "7 months",
+        "year": 2023,
+        "role": "Supply Chain Optimization Intern",
+        "description": "Supply chain optimization internship. Analyzed logistics data and developed predictive models for inventory management."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "companyName": "Booking.com",
+    "coordinates": [52.3712, 4.8956],
+    "address": "Herengracht 597, 1017 CE Amsterdam",
+    "description": "Booking.com is a Dutch online travel agency for lodging reservations and other travel products, and a subsidiary of Booking Holdings.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Booking.com_logo.svg/2560px-Booking.com_logo.svg.png",
+    "city": "Amsterdam",
+    "website": "https://www.booking.com",
+    "email": "careers@booking.com",
+    "phone": "+31 20 722 2222",
+    "tags": ["Software", "Web", "Mobile"],
+    "students": [
+      {
+        "name": "Sophie Müller",
+        "duration": "6 months",
+        "year": 2023,
+        "role": "Frontend Development Intern",
+        "description": "Frontend development internship. Built responsive web components and improved user experience for the booking platform."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "companyName": "NXP Semiconductors",
+    "coordinates": [51.5719, 5.0672],
+    "address": "High Tech Campus 60, 5656 AG Eindhoven",
+    "description": "NXP Semiconductors is a Dutch semiconductor manufacturer that designs and manufactures mixed-signal and digital processing chips.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/NXP_Semiconductors_logo.svg/2560px-NXP_Semiconductors_logo.svg.png",
+    "city": "Eindhoven",
+    "website": "https://www.nxp.com",
+    "email": "careers@nxp.com",
+    "phone": "+31 40 272 9999",
+    "tags": ["Software", "Research"],
+    "students": [
+      {
+        "name": "Carlos Silva",
+        "duration": "8 months",
+        "year": 2023,
+        "role": "Hardware Engineering Intern",
+        "description": "Hardware engineering internship. Designed and tested integrated circuits for automotive and IoT applications."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "companyName": "Adyen",
+    "coordinates": [52.3634, 4.9012],
+    "address": "Simon Carmiggeltstraat 6-50, 1011 DJ Amsterdam",
+    "description": "Adyen is a Dutch payment company that allows businesses to accept e-commerce, mobile, and point-of-sale payments.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Adyen_logo.svg/2560px-Adyen_logo.svg.png",
+    "city": "Amsterdam",
+    "website": "https://www.adyen.com",
+    "email": "careers@adyen.com",
+    "phone": "+31 20 240 2000",
+    "tags": ["Software", "Web"],
+    "students": [
+      {
+        "name": "Lisa Anderson",
+        "duration": "6 months",
+        "year": 2023,
+        "role": "Backend Development Intern",
+        "description": "Backend development internship in fintech. Worked on payment processing systems and API development for global merchants."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "companyName": "Heineken",
+    "coordinates": [52.3689, 4.9087],
+    "address": "Tweede Weteringplantsoen 21, 1017 ZD Amsterdam",
+    "description": "Heineken is a Dutch multinational brewing company, founded in 1864 by Gerard Adriaan Heineken in Amsterdam.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Heineken_logo.svg/2560px-Heineken_logo.svg.png",
+    "city": "Amsterdam",
+    "website": "https://www.heineken.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Software", "Research"],
+    "students": [
+      {
+        "name": "Thomas Nielsen",
+        "duration": "5 months",
+        "year": 2023,
+        "role": "Marketing Analytics Intern",
+        "description": "Marketing analytics internship. Analyzed consumer behavior data and developed digital marketing campaigns for international markets."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "companyName": "Guerrilla Games",
+    "coordinates": [52.3702, 4.8953],
+    "address": "Piet Heinkade 55, 1019 GM Amsterdam",
+    "description": "Guerrilla Games is a Dutch video game developer known for the Killzone series and Horizon Zero Dawn.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Guerrilla_Games_logo.svg/2560px-Guerrilla_Games_logo.svg.png",
+    "city": "Amsterdam",
+    "website": "https://www.guerrilla-games.com",
+    "email": "careers@guerrilla-games.com",
+    "phone": "+31 20 555 0123",
+    "tags": ["Software", "Game", "Applied"],
+    "students": [
+      {
+        "name": "Alex Rivera",
+        "duration": "6 months",
+        "year": 2023,
+        "role": "Game Development Intern",
+        "description": "Game development internship working on AI systems for NPCs and procedural content generation for open-world games."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "companyName": "VR Studio Amsterdam",
+    "coordinates": [52.3685, 4.9021],
+    "address": "Keizersgracht 324, 1016 EZ Amsterdam",
+    "description": "VR Studio Amsterdam specializes in creating immersive virtual reality experiences for entertainment and training applications.",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/VR_Studio_logo.svg/2560px-VR_Studio_logo.svg.png",
+    "city": "Amsterdam",
+    "website": "https://www.vrstudio-amsterdam.com",
+    "email": "info@vrstudio-amsterdam.com",
+    "phone": "+31 20 555 0456",
+    "tags": ["Software", "XR", "Applied"],
+    "students": [
+      {
+        "name": "Maria Santos",
+        "duration": "8 months",
+        "year": 2023,
+        "role": "XR Development Intern",
+        "description": "XR development internship focusing on creating immersive VR experiences for educational and training applications."
+      }
+    ]
+  }
+] 
