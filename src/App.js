@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import Map from './components/Map';
 import SearchBar from './components/SearchBar';
 import InternshipPanel from './components/InternshipPanel';
+import CompanyList from './components/CompanyList';
 import TagFilter from './components/TagFilter';
 import internshipsData from './data/internships.json';
 
@@ -130,11 +131,6 @@ function App() {
               selectedTags={selectedTags}
               onTagToggle={handleTagToggle}
               availableTags={availableTags}
-              stats={{
-                companies: filteredInternships.length,
-                internships: totalStudents,
-                cities: new Set(internships.map(i => i.city)).size
-              }}
               tagCounts={tagCounts}
             />
           </div>
@@ -148,14 +144,10 @@ function App() {
               onClose={handleClosePanel}
             />
           ) : (
-            <div className="p-6 text-center text-gray-500">
-              <svg className="w-16 h-16 mx-auto mb-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Select a Company</h3>
-              <p className="text-sm">Click on a pin on the map to view detailed information about the company and its internships.</p>
-            </div>
+            <CompanyList
+              internships={filteredInternships}
+              onCompanySelect={handleInternshipSelect}
+            />
           )}
         </div>
       </div>

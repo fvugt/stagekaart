@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Interactive map showing student internships in the Netherlands",
   "private": true,
-  "homepage": "https://fvugt.github.io/stagekaart/",
+  "homepage": "https://fvugt.github.io/stagekaart",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -17,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.0"
   }

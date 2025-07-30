@@ -4,13 +4,12 @@ const TagFilter = ({
   selectedTags, 
   onTagToggle, 
   availableTags, 
-  stats,
   tagCounts
 }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-1" style={{ zIndex: 9999 }}>
       {/* Technology Tags with Counts */}
-      <div className="flex flex-wrap gap-1 justify-center mb-1">
+      <div className="flex flex-wrap gap-1 justify-center">
         {availableTags.map((tag) => {
           const count = tagCounts?.[tag] || 0;
           return (
@@ -27,13 +26,6 @@ const TagFilter = ({
             </button>
           );
         })}
-      </div>
-
-      {/* Stats - Below tags */}
-      <div className="flex items-center justify-center space-x-4 text-xs text-gray-600">
-        <span><strong>{stats?.companies}</strong> companies</span>
-        <span><strong>{stats?.internships}</strong> internships</span>
-        <span><strong>{stats?.cities}</strong> cities</span>
       </div>
     </div>
   );
