@@ -6,6 +6,16 @@ import CompanyList from './components/CompanyList';
 import TagFilter from './components/TagFilter';
 import strapiData from './data/dataFromStrapi.json';
 
+const ensureUrlProtocol = (url) => {
+  if (!url || typeof url !== 'string') return '';
+  const trimmed = url.trim();
+  if (!trimmed) return '';
+  if (/^https?:\/\//i.test(trimmed)) {
+    return trimmed;
+  }
+  return `https://${trimmed.replace(/^\/+/, '')}`;
+};
+
 const normalizeStrapiData = (rawData) => {
   if (!rawData || !Array.isArray(rawData.data)) return [];
 
@@ -27,7 +37,7 @@ const normalizeStrapiData = (rawData) => {
       address: company.address ?? '',
       description: company.description ?? '',
       city: company.city ?? '',
-      website: company.website ?? '',
+      website: ensureUrlProtocol(company.website),
       email: company.email ?? '',
       phone: company.phone ?? '',
       tags: tagsArray,
