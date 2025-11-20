@@ -1,32 +1,32 @@
 # StageKaart
 
-An interactive map application showing student internships in the Netherlands. Built with React, Leaflet.js, and TailwindCSS.
+Een interactieve kaart applicatie die studenten stages in Nederland toont. Gebouwd met React, Leaflet.js en TailwindCSS.
 
-## Features
+## Functies
 
-- 🗺️ **Interactive Map** - Full map of the Netherlands with zoom and pan controls
-- 📍 **Company Pins** - Clickable markers showing internship locations
-- 🔍 **Search Functionality** - Search for companies by name
-- 🏷️ **Tag Filtering** - Filter companies by technology focus (Software, Web, Mobile, XR, Game, Applied, Research)
-- 📊 **Real-time Stats** - View company, internship, and city counts
-- 📱 **Responsive Design** - Works on desktop and mobile devices
-- 🎯 **Smooth Interactions** - Map position preserved during filtering
+- 🗺️ **Interactieve Kaart** - Volledige kaart van Nederland met zoom en pan besturing
+- 📍 **Bedrijfspins** - Klikbare markers die stage locaties tonen
+- 🔍 **Zoekfunctionaliteit** - Zoek naar bedrijven op naam
+- 🏷️ **Tag Filtering** - Filter bedrijven op technologie focus (Software, Web, Mobile, XR, Game, Applied, Research)
+- 📊 **Real-time Statistieken** - Bekijk bedrijf, stage en stad aantallen
+- 📱 **Responsief Ontwerp** - Werkt op desktop en mobiele apparaten
+- 🎯 **Vloeiende Interacties** - Kaart positie behouden tijdens filtering
 
-## Technology Stack
+## Technologie Stack
 
 - **React 18** - Frontend framework
-- **Leaflet.js** - Interactive mapping library
+- **Leaflet.js** - Interactieve kaart bibliotheek
 - **TailwindCSS** - Utility-first CSS framework
-- **Leaflet.markercluster** - Marker clustering for better UX
+- **Leaflet.markercluster** - Marker clustering voor betere gebruikerservaring
 
-## Getting Started
+## Aan de Slag
 
-### Prerequisites
+### Vereisten
 
-- Node.js (version 14 or higher)
-- npm or yarn
+- Node.js (versie 14 of hoger)
+- npm of yarn
 
-### Installation
+### Installatie
 
 1. Clone the repository:
 ```bash
@@ -70,23 +70,23 @@ npm run deploy
 
 4. Go to your repository settings and enable GitHub Pages from the `gh-pages` branch.
 
-## Project Structure
+## Project Structuur
 
 ```
 src/
 ├── components/
-│   ├── Map.js              # Main map component with Leaflet
-│   ├── SearchBar.js        # Search functionality
-│   ├── TagFilter.js        # Technology tag filtering
-│   └── InternshipPanel.js  # Company details panel
+│   ├── Map.js              # Hoofdkaart component met Leaflet
+│   ├── SearchBar.js        # Zoekfunctionaliteit
+│   ├── TagFilter.js        # Technologie tag filtering
+│   └── InternshipPanel.js  # Bedrijfsdetails panel
 ├── data/
-│   └── internships.json    # Company and internship data
-└── App.js                  # Main application component
+│   └── internships.json    # Bedrijf en stage data
+└── App.js                  # Hoofdapplicatie component
 ```
 
-## Data Format
+## Data Formaat
 
-The application uses a JSON file (`src/data/internships.json`) with the following structure:
+De applicatie gebruikt een JSON bestand (`src/data/internships.json`) met de volgende structuur:
 
 ```json
 {
@@ -95,7 +95,6 @@ The application uses a JSON file (`src/data/internships.json`) with the followin
   "coordinates": [52.3676, 4.9041],
   "address": "Company Address",
   "description": "Company description",
-  "logo": "logo-url",
   "city": "City Name",
   "website": "company-website",
   "email": "contact-email",
@@ -106,30 +105,31 @@ The application uses a JSON file (`src/data/internships.json`) with the followin
       "name": "Student Name",
       "duration": "6 months",
       "year": 2023,
-      "role": "Internship Role",
+      "role": "Stage Role",
       "description": "What the student did"
     }
   ]
 }
 ```
 
-## Adding New Companies
+## Nieuwe Bedrijven Toevoegen
 
 1. Open `src/data/internships.json`
-2. Add a new company object following the structure above
-3. Include valid coordinates (latitude, longitude)
-4. Add appropriate technology tags
-5. Include student internship details
+2. Voeg een nieuw bedrijf object toe volgens de structuur hierboven
+3. Voeg geldige coördinaten toe (latitude, longitude)
+4. Voeg passende technologie tags toe
+5. Voeg student stage details toe
+6. Logo's zijn optioneel en niet meer vereist
 
-## Available Technology Tags
+## Beschikbare Technologie Tags
 
-- **Software** - Software development
-- **Web** - Web development
-- **Mobile** - Mobile app development
+- **Software** - Software ontwikkeling
+- **Web** - Web ontwikkeling
+- **Mobile** - Mobiele app ontwikkeling
 - **XR** - Extended Reality (VR/AR)
-- **Game** - Game development
-- **Applied** - Applied game development
-- **Research** - Research & development
+- **Game** - Game ontwikkeling
+- **Applied** - Applied game ontwikkeling
+- **Research** - Onderzoek & ontwikkeling
 
 ## Contributing
 

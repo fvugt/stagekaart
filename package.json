@@ -1,7 +1,7 @@
 {
   "name": "stagekaart",
   "version": "1.0.0",
-  "description": "Interactive map showing student internships in the Netherlands",
+  "description": "Interactieve kaart van studenten stages in Nederland",
   "private": true,
   "homepage": "https://fvugt.github.io/stagekaart",
   "dependencies": {

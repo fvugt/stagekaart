@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Test Page</title>
+    <title>Coordinate Test</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        #map { height: 500px; width: 100%; }
+    </style>
 </head>
 <body>
-    <h1>Test Page</h1>
-    <p>If you can see this, files are being deployed correctly.</p>
-    <p>Time: <script>document.write(new Date().toLocaleTimeString());</script></p>
+    <h1>Coordinate Test - Philips Amsterdam</h1>
+    <p>Testing coordinates: [52.3676, 4.9041] - Philips Amsterdam</p>
+    <div id="map"></div>
+    
+    <script>
+        // Initialize map
+        var map = L.map('map').setView([52.1326, 5.2913], 7);
+        
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        
+        // Add marker for Philips Amsterdam
+        var philipsMarker = L.marker([52.3676, 4.9041]).addTo(map);
+        philipsMarker.bindPopup("Philips Amsterdam<br>Coordinates: [52.3676, 4.9041]");
+        
+        // Add marker for ASML Veldhoven
+        var asmlMarker = L.marker([51.4416, 5.4697]).addTo(map);
+        asmlMarker.bindPopup("ASML Veldhoven<br>Coordinates: [51.4416, 5.4697]");
+        
+        // Add marker for ING Amsterdam
+        var ingMarker = L.marker([52.3654, 4.8977]).addTo(map);
+        ingMarker.bindPopup("ING Amsterdam<br>Coordinates: [52.3654, 4.8977]");
+        
+        console.log("Map initialized with coordinates:");
+        console.log("Philips Amsterdam:", [52.3676, 4.9041]);
+        console.log("ASML Veldhoven:", [51.4416, 5.4697]);
+        console.log("ING Amsterdam:", [52.3654, 4.8977]);
+    </script>
 </body>
 </html> 

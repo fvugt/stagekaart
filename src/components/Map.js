@@ -2,19 +2,35 @@ import React, { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet.markercluster';
 
-// Fix for default markers in react-leaflet
-delete L.Icon.Default.prototype._getIconUrl;
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-  iconUrl: require('leaflet/dist/images/marker-icon.png'),
-  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
-});
+const RECENT_YEAR_THRESHOLD = 2025;
+
+const hasRecentStudent = (students = []) =>
+  students.some((student) => {
+    const year = parseInt(student.year, 10);
+    return !Number.isNaN(year) && year >= RECENT_YEAR_THRESHOLD;
+  });
+
+const applyMarkerColor = (marker, isRecent) => {
+  const iconElement = marker.getElement();
+  if (!iconElement) return;
+
+  iconElement.classList.add('internship-marker-default');
+  if (isRecent) {
+    iconElement.classList.add('marker-has-recent');
+    iconElement.classList.remove('marker-no-recent');
+  } else {
+    iconElement.classList.add('marker-no-recent');
+    iconElement.classList.remove('marker-has-recent');
+  }
+};
 
 const Map = ({ internships, selectedInternship, onInternshipSelect, zoomToInternship, onZoomComplete }) => {
   const mapRef = useRef(null);
   const mapInstanceRef = useRef(null);
   const markerClusterGroupRef = useRef(null);
   const markersRef = useRef({});
+
+
 
   // Initialize map only once
   useEffect(() => {
@@ -79,7 +95,12 @@ const Map = ({ internships, selectedInternship, onInternshipSelect, zoomToIntern
         return;
       }
 
+      const isRecent = hasRecentStudent(internship.students);
+
+      // Create marker with coordinates
       const marker = L.marker(internship.coordinates);
+
+      marker.on('add', () => applyMarkerColor(marker, isRecent));
 
       // Add click handler to open side panel
       marker.on('click', () => {
@@ -89,6 +110,9 @@ const Map = ({ internships, selectedInternship, onInternshipSelect, zoomToIntern
 
       markerClusterGroupRef.current.addLayer(marker);
       markersRef.current[internship.id] = marker;
+
+      // Fallback to ensure color is applied even if icon exists immediately
+      setTimeout(() => applyMarkerColor(marker, isRecent), 0);
     });
   }, [internships, onInternshipSelect]); // Only update when internships or callback changes
 

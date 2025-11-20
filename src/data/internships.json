@@ -1,258 +1,640 @@
 [
   {
     "id": 1,
-    "companyName": "Philips",
-    "coordinates": [52.3676, 4.9041],
-    "address": "Amstelplein 2, 1096 BC Amsterdam",
-    "description": "Philips is a leading health technology company focused on improving people's health and well-being through meaningful innovation.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Philips_logo_new.svg/2560px-Philips_logo_new.svg.png",
-    "city": "Amsterdam",
-    "website": "https://www.philips.com",
-    "email": "careers@philips.com",
-    "phone": "+31 20 597 7777",
-    "tags": ["Software", "Research", "Mobile"],
+    "companyName": "SIC Gamelab",
+    "coordinates": [52.233500, 5.192029],
+    "address": "Ripolinstraat 7 1222HN Hilversum",
+    "description": "SiC Gamelab is de naam van een groep mensen die zonder winstoogmerk games en apps voor mensen met een handicap ontwerpen, maken en onderhouden.",
+    "city": "Hilversum",
+    "website": "https://www.sicgamelab.nl",
+    "email": "info@sicgamelab.nl",
+    "phone": "",
+    "tags": ["Game", "Applied", "XR"],
     "students": [
       {
-        "name": "Sarah Johnson",
-        "duration": "6 months",
-        "year": 2023,
-        "role": "Software Development Intern",
-        "description": "Software development internship focusing on IoT healthcare solutions. Worked on developing smart medical devices and data analysis tools."
-      },
-      {
-        "name": "Michael Chen",
-        "duration": "8 months", 
-        "year": 2023,
-        "role": "Data Science Intern",
-        "description": "Developed machine learning models for medical image analysis and patient data processing."
+        "name": "Eduardo",
+        "year": 2025,
+        "description": "Eduardo heeft tijdens zijn stage bij SIC GameLab bestaande games geüpdatet en technische problemen opgelost, terwijl hij tegelijk de basis van VR-ontwikkeling leerde via Unity en een eerste VR-prototype maakte."
       }
     ]
   },
   {
     "id": 2,
-    "companyName": "ASML",
-    "coordinates": [51.4416, 5.4697],
-    "address": "De Run 6501, 5504 DR Veldhoven",
-    "description": "ASML is a world leader in the semiconductor industry, providing chipmakers with hardware, software and services to mass produce patterns on silicon.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/ASML_logo.svg/2560px-ASML_logo.svg.png",
-    "city": "Veldhoven",
-    "website": "https://www.asml.com",
-    "email": "careers@asml.com",
-    "phone": "+31 40 268 3000",
-    "tags": ["Software", "Research"],
+    "companyName": "XR4Industry",
+    "coordinates": [51.811985, 5.745445],
+    "address": "Nieuweweg 101, 6603 BK Wijchen",
+    "description": "",
+    "city": "Wijchen",
+    "website": "www.xr4industry.com",
+    "email": "info@XR4industry.com",
+    "phone": "+31 24 420 0541",
+    "tags": ["Simulatie", "Applied", "XR"],
     "students": [
       {
-        "name": "Emma van der Berg",
-        "duration": "8 months",
-        "year": 2023,
-        "role": "Research Intern",
-        "description": "Research internship in semiconductor lithography. Contributed to the development of next-generation EUV lithography systems."
-      },
-      {
-        "name": "Thomas Nielsen",
-        "duration": "7 months",
-        "year": 2023,
-        "role": "Software Engineering Intern",
-        "description": "Software engineering internship in the control systems team. Developed algorithms for precise positioning and control of lithography machines."
+        "name": "Thijs",
+        "year": 2025,
+        "description": "Thijs werkte bij XR4Industry aan het testen en bouwen van testomgevingen voor digitale machine-simulaties en ontwikkelde daarbij zowel technische vaardigheden in C# als betere stress- en planningsvaardigheden."
       }
     ]
   },
   {
     "id": 3,
-    "companyName": "ING Bank",
-    "coordinates": [52.3654, 4.8977],
-    "address": "Bijlmerdreef 106, 1102 CT Amsterdam",
-    "description": "ING is a global financial institution with a strong European base, offering banking services for retail and commercial clients.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/ING_Group_logo.svg/2560px-ING_Group_logo.svg.png",
-    "city": "Amsterdam",
-    "website": "https://www.ing.com",
-    "email": "",
-    "phone": "",
-    "tags": ["Software", "Web", "Mobile"],
+    "companyName": "&Ranj",
+    "coordinates": [51.902817, 4.459637],
+    "address": "Lloydstraat 21-M, 3024 EA Rotterdam",
+    "description": "",
+    "city": "Rotterdam",
+    "website": "https://ranj.com/en/home",
+    "email": "info@ranj.nl",
+    "phone": "+31 10 212 3101",
+    "tags": ["Applied"],
     "students": [
       {
-        "name": "Lucas Rodriguez",
-        "duration": "5 months",
-        "year": 2023,
-        "role": "Data Science Intern",
-        "description": "Data science internship in the digital banking team. Developed machine learning models for fraud detection and customer behavior analysis."
+        "name": "Mar",
+        "year": 2025,
+        "description": "Mar werkte bij &Ranj aan meerdere serious game-projecten in Unity en het interne Javascript-framework, waarbij ze leerde werken in een bestaand framework en actief samenwerkte binnen een multidisciplinair team."
       }
     ]
   },
   {
     "id": 4,
-    "companyName": "TomTom",
-    "coordinates": [52.3698, 4.9105],
-    "address": "De Ruijterkade 154, 1011 AC Amsterdam",
-    "description": "TomTom is a technology company that provides location technology and services for automotive, enterprise and consumer markets.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/TomTom_logo.svg/2560px-TomTom_logo.svg.png",
-    "city": "Amsterdam",
-    "website": "https://www.tomtom.com",
-    "email": "careers@tomtom.com",
-    "phone": "+31 20 757 5000",
-    "tags": ["Software", "Mobile"],
+    "companyName": "Xeropex",
+    "coordinates": [52.1625065,5.4264639],
+    "address": "Hogeweg 229B, 3816 BS Amersfoort",
+    "description": "",
+    "city": "Amersfoort",
+    "website": "https://xeropex.com/",
+    "email": "info@xeropex.com",
+    "phone": "+31 85 303 96 76",
+    "tags": ["Web"],
     "students": [
       {
-        "name": "Anna Kowalski",
-        "duration": "6 months",
-        "year": 2023,
-        "role": "Mobile App Development Intern",
-        "description": "Mobile app development internship. Worked on navigation features and real-time traffic data integration for the TomTom Go app."
+        "name": "Max",
+        "year": 2025,
+        "description": "Max werkte bij Xeropex aan het ontwikkelen van een Laravel-project en leerde daarbij effectief met API’s te werken binnen een professionele backend-omgeving."
       }
     ]
   },
   {
     "id": 5,
-    "companyName": "Unilever",
-    "coordinates": [51.9225, 4.4792],
-    "address": "Weena 455, 3013 AL Rotterdam",
-    "description": "Unilever is a British-Dutch multinational consumer goods company that produces food, beverages, cleaning agents and personal care products.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unilever_logo.svg/2560px-Unilever_logo.svg.png",
-    "city": "Rotterdam",
-    "website": "https://www.unilever.com",
-    "email": "",
-    "phone": "",
-    "tags": ["Software", "Research"],
+    "companyName": "Radorfa",
+    "coordinates": [51.7709083,5.3251874],
+    "address": "Bulkseweg 15a, 5331 PK Kerkdriel",
+    "description": "",
+    "city": "Kerkdriel",
+    "website": "www.radorfa.nl/",
+    "email": "support@radorfa.nl",
+    "phone": "+31 73 369 0719",
+    "tags": ["Software", "Web", "Game"],
     "students": [
       {
-        "name": "David Thompson",
-        "duration": "7 months",
-        "year": 2023,
-        "role": "Supply Chain Optimization Intern",
-        "description": "Supply chain optimization internship. Analyzed logistics data and developed predictive models for inventory management."
+        "name": "Anass",
+        "year": 2025,
+        "description": "Anass heeft tijdens zijn stage bij Radorfa in een klein team gewerkt aan de frontend van een Unity-game, waarbij hij veel leerde over C#, API-koppelingen en samenwerken in een professionele werkomgeving."
       }
     ]
   },
   {
     "id": 6,
-    "companyName": "Booking.com",
-    "coordinates": [52.3712, 4.8956],
-    "address": "Herengracht 597, 1017 CE Amsterdam",
-    "description": "Booking.com is a Dutch online travel agency for lodging reservations and other travel products, and a subsidiary of Booking Holdings.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Booking.com_logo.svg/2560px-Booking.com_logo.svg.png",
-    "city": "Amsterdam",
-    "website": "https://www.booking.com",
-    "email": "careers@booking.com",
-    "phone": "+31 20 722 2222",
-    "tags": ["Software", "Web", "Mobile"],
+    "companyName": "Xolbor",
+    "coordinates": [52.09083,5.12222],
+    "address": "Europalaan 400, 3526 KS Utrecht",
+    "description": "",
+    "city": "Utrecht",
+    "website": "https://www.xolbor.io/",
+    "email": "info@xolbor.io",
+    "phone": "+31641619902",
+    "tags": ["Game"],
     "students": [
       {
-        "name": "Sophie Müller",
-        "duration": "6 months",
-        "year": 2023,
-        "role": "Frontend Development Intern",
-        "description": "Frontend development internship. Built responsive web components and improved user experience for the booking platform."
+        "name": "Vincent",
+        "year": 2025,
+        "description": "Vincent heeft tijdens zijn stage bij Xolbor in Roblox Studio gewerkt aan het programmeren van nieuwe features in Luau en het uitbreiden van het interne framework, waarbij hij daarnaast ook regelmatig taken buiten zijn specialisme oppakte, zoals level design, asset-integratie en AI-art generation."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "companyName": "DPDK",
+    "coordinates": [51.9072626,4.4771065],
+    "address": "Calandstraat 5a, 3016 CA Rotterdam",
+    "description": "",
+    "city": "Rotterdam",
+    "website": "www.dpdk.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Web"],
+    "students": [
+      {
+        "name": "Sander",
+        "year": 2025,
+        "description": "Sander heeft bij DPDK als front-end developer gewerkt aan de nieuwe corporate website, waarbij hij professionele workflows (git, reviews, scrum) leerde gebruiken en efficiënt leerde werken met tools als Next.js en Tailwind."
       }
     ]
   },
   {
     "id": 7,
-    "companyName": "NXP Semiconductors",
-    "coordinates": [51.5719, 5.0672],
-    "address": "High Tech Campus 60, 5656 AG Eindhoven",
-    "description": "NXP Semiconductors is a Dutch semiconductor manufacturer that designs and manufactures mixed-signal and digital processing chips.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/NXP_Semiconductors_logo.svg/2560px-NXP_Semiconductors_logo.svg.png",
-    "city": "Eindhoven",
-    "website": "https://www.nxp.com",
-    "email": "careers@nxp.com",
-    "phone": "+31 40 272 9999",
-    "tags": ["Software", "Research"],
+    "companyName": "LaserMaxx",
+    "coordinates": [52.149234771728516,5.157686233520508],
+    "address": "Achterweteringseweg 12, 3738 MA Maartensdijk",
+    "description": "",
+    "city": "Maartensdijk",
+    "website": "www.lasermaxx.com",
+    "email": "john@lasermaxx.com",
+    "phone": "+31 302288049",
+    "tags": ["Game", "XR"],
     "students": [
       {
-        "name": "Carlos Silva",
-        "duration": "8 months",
-        "year": 2023,
-        "role": "Hardware Engineering Intern",
-        "description": "Hardware engineering internship. Designed and tested integrated circuits for automotive and IoT applications."
+        "name": "Youri",
+        "year": 2025,
+        "description": "Youri heeft bij LaserMaxx gewerkt aan meerdere VR-projecten, waarbij hij onder andere een multiplayer-scoresysteem ontwikkelde en actief verbeterde in codeconventies en samenwerking binnen een klein VR-ontwikkelteam."
+      },
+      {
+        "name": "Rijk",
+        "year": 2025,
+        "description": "Rijk heeft bij LaserMaxx gewerkt aan het opzetten en opschonen van een herbruikbaar Unity-templateproject en het ontwikkelen van een animatiecontroller voor NPC’s binnen een VR-game, waardoor hij zowel projectstructuur als animatiesystemen verbeterde."
       }
     ]
   },
   {
     "id": 8,
-    "companyName": "Adyen",
-    "coordinates": [52.3634, 4.9012],
-    "address": "Simon Carmiggeltstraat 6-50, 1011 DJ Amsterdam",
-    "description": "Adyen is a Dutch payment company that allows businesses to accept e-commerce, mobile, and point-of-sale payments.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Adyen_logo.svg/2560px-Adyen_logo.svg.png",
-    "city": "Amsterdam",
-    "website": "https://www.adyen.com",
-    "email": "careers@adyen.com",
-    "phone": "+31 20 240 2000",
-    "tags": ["Software", "Web"],
+    "companyName": "Edumersive",
+    "coordinates": [51.91709518432617,4.532454967498779],
+    "address": "K.P. van der Mandelelaan 41-43, Rotterdam",
+    "description": "",
+    "city": "Rotterdam",
+    "website": "www.edumersive.nl",
+    "email": "",
+    "phone": "",
+    "tags": ["XR"],
     "students": [
       {
-        "name": "Lisa Anderson",
-        "duration": "6 months",
-        "year": 2023,
-        "role": "Backend Development Intern",
-        "description": "Backend development internship in fintech. Worked on payment processing systems and API development for global merchants."
+        "name": "Kenan",
+        "year": 2025,
+        "description": "Kenan heeft bij Edumersive gewerkt aan het verbeteren van de XR-hulpmenu’s volgens een styleguide en het ontwikkelen van een AR/XR-project, waarbij hij leerde plannen met Trello, XR-tools toe te passen in Unity en beter te werken volgens professionele richtlijnen."
       }
     ]
   },
   {
     "id": 9,
-    "companyName": "Heineken",
-    "coordinates": [52.3689, 4.9087],
-    "address": "Tweede Weteringplantsoen 21, 1017 ZD Amsterdam",
-    "description": "Heineken is a Dutch multinational brewing company, founded in 1864 by Gerard Adriaan Heineken in Amsterdam.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Heineken_logo.svg/2560px-Heineken_logo.svg.png",
-    "city": "Amsterdam",
-    "website": "https://www.heineken.com",
+    "companyName": "Knucklehead Studios",
+    "coordinates": [52.09083,5.12222],
+    "address": "Australiëlaan 13, 3526 AB Utrecht",
+    "description": "",
+    "city": "Utrecht",
+    "website": "https://knucklehead-studios.com/",
     "email": "",
     "phone": "",
-    "tags": ["Software", "Research"],
+    "tags": ["Game", "XR"],
     "students": [
       {
-        "name": "Thomas Nielsen",
-        "duration": "5 months",
-        "year": 2023,
-        "role": "Marketing Analytics Intern",
-        "description": "Marketing analytics internship. Analyzed consumer behavior data and developed digital marketing campaigns for international markets."
+        "name": "Job",
+        "year": 2025,
+        "description": "Job heeft bij Knucklehead Studios gewerkt aan het volledig herstructureren van de game loop van een VR LBE-game en heeft daarbij SOLID-principes en projectstructuur toegepast om schaalbare, onderhoudbare minigames te bouwen binnen een professioneel ontwikkelteam."
       }
     ]
   },
   {
     "id": 10,
-    "companyName": "Guerrilla Games",
-    "coordinates": [52.3702, 4.8953],
-    "address": "Piet Heinkade 55, 1019 GM Amsterdam",
-    "description": "Guerrilla Games is a Dutch video game developer known for the Killzone series and Horizon Zero Dawn.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Guerrilla_Games_logo.svg/2560px-Guerrilla_Games_logo.svg.png",
-    "city": "Amsterdam",
-    "website": "https://www.guerrilla-games.com",
-    "email": "careers@guerrilla-games.com",
-    "phone": "+31 20 555 0123",
-    "tags": ["Software", "Game", "Applied"],
+    "companyName": "XR-Lab",
+    "coordinates": [52.2414558,5.170221],
+    "address": "Koos Postemalaan 6, 1217 ZC Hilversum",
+    "description": "",
+    "city": "Hilversum",
+    "website": "https://www.xr-lab.nl/",
+    "email": "",
+    "phone": "",
+    "tags": ["Game", "XR"],
     "students": [
       {
-        "name": "Alex Rivera",
-        "duration": "6 months",
-        "year": 2023,
-        "role": "Game Development Intern",
-        "description": "Game development internship working on AI systems for NPCs and procedural content generation for open-world games."
+        "name": "Steph",
+        "year": 2025,
+        "description": "Steph werkte bij XR-Lab als Lead Developer binnen twee XR-projecten, waar zij developers aanstuurde, code reviews uitvoerde en documentatie opstelde, terwijl ze daarnaast haar Lua-skills ontwikkelde door gameplay- en UI-systemen in Roblox Studio te bouwen."
+      },
+      {
+        "name": "Bart",
+        "year": 2025,
+        "description": "Bart werkte bij XRLABS aan een VR-bibliotheekervaring en een Roblox-project, waarbij hij leerde optimaliseren naar 72 FPS en voor het eerst met Roblox en Lua aan de slag ging."
       }
     ]
   },
   {
     "id": 11,
-    "companyName": "VR Studio Amsterdam",
-    "coordinates": [52.3685, 4.9021],
-    "address": "Keizersgracht 324, 1016 EZ Amsterdam",
-    "description": "VR Studio Amsterdam specializes in creating immersive virtual reality experiences for entertainment and training applications.",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/VR_Studio_logo.svg/2560px-VR_Studio_logo.svg.png",
-    "city": "Amsterdam",
-    "website": "https://www.vrstudio-amsterdam.com",
-    "email": "info@vrstudio-amsterdam.com",
-    "phone": "+31 20 555 0456",
-    "tags": ["Software", "XR", "Applied"],
+    "companyName": "Idealisers",
+    "coordinates": [51.4518939,5.4659418],
+    "address": "Kronehoefstraat 85-87, 5612 HL Eindhoven",
+    "description": "",
+    "city": "Eindhoven",
+    "website": "https://idealisers.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Game", "XR"],
     "students": [
       {
-        "name": "Maria Santos",
-        "duration": "8 months",
-        "year": 2023,
-        "role": "XR Development Intern",
-        "description": "XR development internship focusing on creating immersive VR experiences for educational and training applications."
+        "name": "Kjeld",
+        "year": 2025,
+        "description": "Kjeld werkte bij Idealisers aan het ontwikkelen van meerdere Unity-games, waarbij hij zijn codekwaliteit verbeterde met design patterns zoals object pooling en actief leerde plannen via Trello en weekplanningen."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "companyName": "Questcontrol",
+    "coordinates": [52.09083,5.12222],
+    "address": "Witte Vlinderweg 20a, 1521 PS Wormerveer",
+    "description": "",
+    "city": "Wormerveer",
+    "website": "https://questcontrol.net",
+    "email": "",
+    "phone": "",
+    "tags": ["Web"],
+    "students": [
+      {
+        "name": "Tycho",
+        "year": 2025,
+        "description": "Tycho heeft bij Questcontrol gewerkt aan het bouwen van een webplanner met ASP.NET Core en VueJS, waarbij hij praktijkervaring opdeed met professionele workflows en front-end development, maar merkte dat hij in zijn volgende stage liever weer aan gameprojecten werkt."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "companyName": "Wiex Agency",
+    "coordinates": [52.09083,5.12222],
+    "address": "Steenovenweg 11, 3417 XR Montfoort",
+    "description": "",
+    "city": "Montfoort",
+    "website": "https://wiex.agency",
+    "email": "",
+    "phone": "",
+    "tags": ["Web"],
+    "students": [
+      {
+        "name": "Vj",
+        "year": 2025,
+        "description": "VJ werkte bij Wiex Agency aan het bouwen van websites met Nuxt3, Tailwind en externe API’s, waarbij hij front-end fundamentals toepaste, feedback verwerkte in zijn designs en leerde om mobiel-first en responsief te ontwikkelen."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "companyName": "DIVD",
+    "coordinates": [52.0680572,4.3534297],
+    "address": "Maanweg 174 8e et, 2516 AB Den Haag",
+    "description": "",
+    "city": "Den Haag",
+    "website": "www.divd.nl",
+    "email": "",
+    "phone": "",
+    "tags": ["Software", "Web"],
+    "students": [
+      {
+        "name": "Baran",
+        "year": 2025,
+        "description": "Baran werkte bij DIVD als teamleider aan een webproject, waar hij met HTML, CSS en JavaScript een interactieve website ontwikkelde en daarnaast Flutter leerde via kleine app-prototypes om zijn mobile development skills uit te breiden."
+      },
+      {
+        "name": "Kasper",
+        "year": 2025,
+        "description": "Kasper werkte bij DIVD aan het DIVD.works-project, waar hij zich bezighield met cybersecurity, web development en samenwerkingstools zoals Trello en GitHub, terwijl hij vrij kon kiezen aan welke taken en leerdoelen hij werkte. Tijdens zijn stage volgde hij een cybersecuritycursus, werkte hij mee aan de website en ontwikkelde hij ideeën in verschillende richtingen, zoals app- en game development."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "companyName": "Zes",
+    "coordinates": [51.486262,3.876193],
+    "address": "Pearyweg 1, 4462 GT Goes",
+    "description": "",
+    "city": "Goes",
+    "website": "www.zesinternational.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Software", "Web"],
+    "students": [
+      {
+        "name": "Silvano",
+        "year": 2025,
+        "description": "Silvano werkte bij Zes Goes in het Store Red-team aan de Zir Store applicatie, waar hij met PHP, Symfony en JavaScript ontwikkelde, actief leerde omgaan met feedback en bewust uitdagende tickets oppakte om sneller technisch en sociaal te groeien."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "companyName": "UtilityKeurmerk",
+    "coordinates": [52.0141096,6.1379436],
+    "address": "Meipoortstraat 49, 6981 DJ Doesburg",
+    "description": "",
+    "city": "Doesburg",
+    "website": "www.nietjanken.nl",
+    "email": "",
+    "phone": "",
+    "tags": ["Web"],
+    "students": [
+      {
+        "name": "Vincent",
+        "year": 2025,
+        "description": "Vincent werkte bij UtilityKeurmerk (NietJanken) aan een intern HR-project met het Yii2-framework, waar hij frontend- en backendtaken uitvoerde in PHP, HTML en CSS, en tegelijkertijd actief oefende met meer vragen stellen en minder introvert zijn op de werkvloer."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "companyName": "Griffid",
+    "coordinates": [52.09083,5.12222],
+    "address": "Camerastraat 25, 1322 BB Almere",
+    "description": "",
+    "city": "Almere",
+    "website": "www.griffid.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Software"],
+    "students": [
+      {
+        "name": "Björn",
+        "year": 2025,
+        "description": "Björn werkte bij Griffid B.V. aan een C#-gebaseerde port- en connectiemonitoring tool voor de supportafdeling, waarbij hij zich richtte op veilig dataverkeer, HTTPS-communicatie en technische keuzes onderbouwen, terwijl hij leerde werken binnen een professioneel, informeel softwareteam."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "companyName": "ICT@work",
+    "coordinates": [51.9626214,5.9969336],
+    "address": "Dijkgraaf 36, 6921 RL Duiven",
+    "description": "",
+    "city": "Duiven",
+    "website": "www.ictatwork.nl",
+    "email": "",
+    "phone": "",
+    "tags": ["Web", "Software"],
+    "students": [
+      {
+        "name": "Jayson",
+        "year": 2025,
+        "description": "Jayson werkte bij ICT@WORK met .NET MAUI aan een mobiele app die GPS-locatie gebruikt om winkels en kortingscodes te tonen, waarbij hij sensordata onderzocht (zoals GPS, barometer en magnetometer) en daarnaast een beheerwebsite bouwde om winkels en producten te beheren."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "companyName": "EduvolutionX",
+    "coordinates": [51.9934014,4.3866223],
+    "address": "Molengraaffsingel 12, 2629 JD Delft",
+    "description": "",
+    "city": "Delft",
+    "website": "www.eduvolutionx.com",
+    "email": "",
+    "phone": "",
+    "tags": ["XR"],
+    "students": [
+      {
+        "name": "Lorenzo",
+        "year": 2025,
+        "description": "Lorenzo werkte bij EduvolutionX aan een educatieve VR-game over water, waarbij hij leerde coderen in VR en actiever samen te werken binnen het team."
+      },
+      {
+        "name": "Owais",
+        "year": 2025,
+        "description": "Owais werkte bij EduvolutionX aan een VR-simulatie over waterproblemen, waarbij hij samenwerkte aan puzzel-design in Unity en leerde beter samen te werken en zelfstandig nieuwe technieken te leren."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "companyName": "Solvware",
+    "coordinates": [51.692328,5.0725567],
+    "address": "Taxandriaweg 12 K, 5142 PA Waalwijk",
+    "description": "",
+    "city": "Waalwijk",
+    "website": "www.solvware.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Software"],
+    "students": [
+      {
+        "name": "Gerben",
+        "year": 2025,
+        "description": "Gerben werkte bij Solvware aan PHP-ontwikkeling binnen een CRM-systeem, waarbij hij zijn PHP-kennis verdiepte en oefende met professioneel communiceren in een developmentteam."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "companyName": "X2R Software",
+    "coordinates": [51.7284734,4.9591423],
+    "address": "de Sluis 2a, 4271 CZ Dussen",
+    "description": "",
+    "city": "Dussen",
+    "website": "www.x2r.nl",
+    "email": "",
+    "phone": "",
+    "tags": ["Web"],
+    "students": [
+      {
+        "name": "Thomas",
+        "year": 2025,
+        "description": "Thomas werkte bij X2R Software als developer en supportmedewerker, waar hij vooral HTML leerde gebruiken en voor het eerst een API bouwde en toepaste in een webproject."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "companyName": "Sterco",
+    "coordinates": [51.9872145,4.9691837],
+    "address": "Bedrijfsweg 6, 3411 NV Lopik",
+    "description": "",
+    "city": "Lopik",
+    "website": "www.sterco.nl",
+    "email": "",
+    "phone": "",
+    "tags": ["Software"],
+    "students": [
+      {
+        "name": "Fabian",
+        "year": 2025,
+        "description": "Fabian werkte bij Ster.co als developer en officemanager, waar hij Power Apps en Power Automate leerde gebruiken om bedrijfsprocessen te automatiseren."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "companyName": "Cliq Digital",
+    "coordinates": [52.3576675,4.8939613],
+    "address": "Stadhouderskade 85, 1073 AT Amsterdam",
+    "description": "",
+    "city": "Amsterdam",
+    "website": "www.cliqdigital.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Web"],
+    "students": [
+      {
+        "name": "Pedro",
+        "year": 2025,
+        "description": "Pedro werkte bij Cliq Digital aan het bouwen van responsive webpagina's in HTML, CSS en JavaScript, terwijl hij ervaring opdeed met front-end development binnen een professioneel marketingteam."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "companyName": "Incontrol",
+    "coordinates": [52.0780376,4.8990354],
+    "address": "Jaap Bijzerweg 21A, 3446 CR Woerden",
+    "description": "",
+    "city": "Woerden",
+    "website": "www.incontrolsim.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Software", "Simulatie"],
+    "students": [
+      {
+        "name": "Timo",
+        "year": 2025,
+        "description": "Timo werkte bij INCONTROL aan het bouwen van een .NET MAUI wizard-applicatie met database-koppeling, waarbij hij ervaring opdeed met nieuwe programmeertalen én het opzetten en gebruiken van databases."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "companyName": "Landmacht",
+    "coordinates": [52.1488711,5.3529893],
+    "address": "Barchman Wuytierslaan 198LTC Amersfoort",
+    "description": "",
+    "city": "Amersfoort",
+    "website": "",
+    "email": "",
+    "phone": "",
+    "tags": ["Simulatie", "Game"],
+    "students": [
+      {
+        "name": "Marc",
+        "year": 2025,
+        "description": "Marc werkte bij het simulatiecentrum van de Landmacht aan opleidingssoftware en simulaties, terwijl hij zijn vaardigheden in gamefeel en animatie verder ontwikkelde binnen een professionele werkomgeving."
+      },
+      {
+        "name": "Milan",
+        "year": 2025,
+        "description": "Milan werkte bij het simulatiecentrum van de Landmacht aan simulatie-oefeningen en een Unity-app, terwijl hij complexe gameplay-systemen in Unreal C++ ontwikkelde en de basis van game art leerde."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "companyName": "Logistic Workx",
+    "coordinates": [51.6957525,5.1822101],
+    "address": "Middelweg 6C, 5253 CA Nieuwkuijk",
+    "description": "",
+    "city": "Nieuwkuijk",
+    "website": "www.logisticworkx.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Simulatie", "XR"],
+    "students": [
+      {
+        "name": "Leon",
+        "year": 2025,
+        "description": "Leon werkte bij Logistic Workx als Unity VR-developer aan logistieke trainingssimulaties, waarbij hij ervaring opdeed met VR-tools en zijn code gestructureerder en herbruikbaar leerde schrijven."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "companyName": "Learn & Earn",
+    "coordinates": [52.3832847,4.6460814],
+    "address": "Koepelplein 1E, 2031 WL Haarlem",
+    "description": "",
+    "city": "Haarlem",
+    "website": "www.muse.place",
+    "email": "",
+    "phone": "",
+    "tags": ["Game", "Web"],
+    "students": [
+      {
+        "name": "Xander",
+        "year": 2025,
+        "description": "Xander werkte bij Learn & Earn aan een nieuw portfolio in HTML/CSS en experimenteerde met meerdere game engines (Gamemaker, Godot, Unreal)."
+      },
+      {
+        "name": "Damian",
+        "year": 2025,
+        "description": "Damian werkte bij Learn & Earn aan een AR-Tetris prototype, experimenteerde met Roblox Lua en HTML/CSS."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "companyName": "Aryzon.World",
+    "coordinates": [52.0262365,5.6443582],
+    "address": "Galvanistraat 7, 6716 AE Ede",
+    "description": "",
+    "city": "Ede",
+    "website": "www.aryzon.world",
+    "email": "",
+    "phone": "",
+    "tags": ["XR", "Game"],
+    "students": [
+      {
+        "name": "Raphael",
+        "year": 2025,
+        "description": "Raphael werkte bij Aryzon.World aan VR-tools, AI-spraakbesturing, een videorecorder in VR en een Snake-game met design patterns, terwijl hij zijn programmeervaardigheden en codekwaliteit verbeterde."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "companyName": "Metaverse Solutions",
+    "coordinates": [53.2297494,6.5627508],
+    "address": "Billitonstraat 34, 9715 ET Groningen",
+    "description": "",
+    "city": "Groningen",
+    "website": "www.metaverse-solutions.nl",
+    "email": "",
+    "phone": "",
+    "tags": ["XR"],
+    "students": [
+      {
+        "name": "Daniel",
+        "year": 2025,
+        "description": "Daniel werkte als game programmeur bij Metaverse Solutions, waar hij bugs oploste, tools ontwikkelde en professioneel leerde onderzoeken en debuggen, en gaat nu stage lopen in België om AI-gedrag en enemy-mechanics te ontwikkelen."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "companyName": "Starbrew Games",
+    "coordinates": [51.5886398,4.7847392],
+    "address": "Chasseveld 3, 4811 DH Breda",
+    "description": "",
+    "city": "Breda",
+    "website": "www.starbrewgames.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Game"],
+    "students": [
+      {
+        "name": "Dennis",
+        "year": 2025,
+        "description": "Dennis werkte bij Starbrew Games aan gameplay-systemen in Unreal Engine (Blueprints en C++), waaronder de Gravity Pull gadget, interactieve wereldobjecten en puzzels, en blijft vanwege de goede sfeer en leerervaring nog een half jaar bij de studio."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "companyName": "Wanted 5 games",
+    "coordinates": [52.3870991,4.6386153],
+    "address": "Stationsplein 116 4e, 2011 LN Haarlem",
+    "description": "",
+    "city": "Haarlem",
+    "website": "https://wanted5games.com",
+    "email": "",
+    "phone": "",
+    "tags": ["Game", "Web"],
+    "students": [
+      {
+        "name": "Lars",
+        "year": 2025,
+        "description": "Lars draaide bij Wanted 5 Games volledig mee als developer, bouwde o.a. een leaderboard-systeem in TypeScript/Cocos Creator en groeide merkbaar in zelfstandigheid. Voor zijn volgende stage zoekt hij een nieuwe plek waar hij zijn programmeervaardigheden verder kan ontwikkelen."
       }
     ]
   }
-] 
+]

@@ -6,8 +6,8 @@ const CompanyList = ({ internships, onCompanySelect }) => {
       {/* Header */}
       <div className="flex items-center justify-between p-6 border-b border-gray-200 flex-shrink-0">
         <div>
-          <h2 className="text-xl font-bold text-gray-900">All Companies</h2>
-          <p className="text-sm text-gray-600">{internships.length} companies available</p>
+          <h2 className="text-xl font-bold text-gray-900">Alle Bedrijven</h2>
+          <p className="text-sm text-gray-600">{internships.length} bedrijven beschikbaar</p>
         </div>
       </div>
 
@@ -21,15 +21,6 @@ const CompanyList = ({ internships, onCompanySelect }) => {
               className="p-4 hover:bg-gray-50 cursor-pointer transition-colors"
             >
               <div className="flex items-start space-x-3">
-                {/* Company Logo */}
-                {internship.logo && (
-                  <img
-                    src={internship.logo}
-                    alt={internship.companyName}
-                    className="w-12 h-12 object-contain bg-gray-50 rounded-lg p-1 flex-shrink-0"
-                  />
-                )}
-                
                 {/* Company Info */}
                 <div className="flex-1 min-w-0">
                   <div className="flex items-start justify-between">
@@ -62,7 +53,7 @@ const CompanyList = ({ internships, onCompanySelect }) => {
                     {/* Student Count */}
                     <div className="text-right ml-2">
                       <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
-                        {internship.students.length} student{internship.students.length !== 1 ? 's' : ''}
+                        {internship.students.length} student{internship.students.length !== 1 ? 'en' : ''}
                       </span>
                     </div>
                   </div>

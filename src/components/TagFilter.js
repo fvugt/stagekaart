@@ -7,16 +7,16 @@ const TagFilter = ({
   tagCounts
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-1" style={{ zIndex: 9999 }}>
+    <div className="bg-white rounded-lg shadow-lg border border-gray-200 p-1 max-w-full" style={{ zIndex: 9999 }}>
       {/* Technology Tags with Counts */}
-      <div className="flex flex-wrap gap-1 justify-center">
+      <div className="flex flex-wrap gap-1 justify-center max-w-xs md:max-w-none overflow-x-auto">
         {availableTags.map((tag) => {
           const count = tagCounts?.[tag] || 0;
           return (
             <button
               key={tag}
               onClick={() => onTagToggle(tag)}
-              className={`px-2 py-1 rounded-full text-xs font-medium transition-colors ${
+              className={`px-2 py-1 rounded-full text-xs font-medium transition-colors whitespace-nowrap ${
                 selectedTags.includes(tag)
                   ? 'bg-blue-500 text-white'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
