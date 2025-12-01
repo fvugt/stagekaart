@@ -51,11 +51,11 @@ const CompanyList = ({ internships, onCompanySelect }) => {
                     </div>
                     
                     {/* Student Count */}
-                    <div className="text-right ml-2">
+                    {/* <div className="text-right ml-2">
                       <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
                         {internship.students.length} student{internship.students.length !== 1 ? 'en' : ''}
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
