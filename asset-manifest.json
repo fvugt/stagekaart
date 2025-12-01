@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stagekaart/static/css/main.fdb11b1a.css",
+    "main.js": "/stagekaart/static/js/main.aa7429e2.js",
+    "index.html": "/stagekaart/index.html",
+    "main.fdb11b1a.css.map": "/stagekaart/static/css/main.fdb11b1a.css.map",
+    "main.aa7429e2.js.map": "/stagekaart/static/js/main.aa7429e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdb11b1a.css",
+    "static/js/main.aa7429e2.js"
+  ]
+}
