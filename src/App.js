@@ -174,7 +174,7 @@ function App() {
         <div className="flex-1 min-w-0">
           <h1 className={`${isMobile ? 'text-lg' : 'text-2xl'} font-bold text-gray-900 truncate`}>Stagekaart</h1>
           {!isMobile && (
-            <p className="text-sm text-gray-600">Waar onze studenten afgelopen jaar stage hebben gelopen.</p>
+            <p className="text-sm text-gray-600">Bekijk de bedrijven waar onze studenten stage hebben gelopen.</p>
           )}
         </div>
         <div className={`${isMobile ? 'w-48' : 'w-80'} flex-shrink-0`}>
